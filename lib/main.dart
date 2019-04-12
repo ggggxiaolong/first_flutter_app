@@ -1,5 +1,6 @@
 import 'package:first_flutter_app/Checkbox.dart';
 import 'package:first_flutter_app/home.dart';
+import 'package:first_flutter_app/textFiled.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "new_page": (context) => NewRoute(),
       },
-      home: CheckBoxWidget(title: 'Image && Icon'),
+      home: TextFiledWidget(title: 'TextField'),
     );
   }
 }
