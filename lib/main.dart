@@ -1,9 +1,10 @@
-import 'package:first_flutter_app/Checkbox.dart';
+import 'package:first_flutter_app/foucusTestRoute.dart';
 import 'package:first_flutter_app/home.dart';
-import 'package:first_flutter_app/textFiled.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+
+import 'formTestRoute.dart';
 
 void main() => runApp(MyApp());
 
@@ -19,7 +20,9 @@ class MyApp extends StatelessWidget {
       routes: {
         "new_page": (context) => NewRoute(),
       },
-      home: TextFiledWidget(title: 'TextField'),
+//      home: TextFiledWidget(title: 'TextField'),
+//    home: FocusTestRoute(),
+    home: FormTestRoute(),
     );
   }
 }
