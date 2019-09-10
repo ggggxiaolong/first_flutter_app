@@ -1,10 +1,9 @@
 import 'package:first_flutter_app/foucusTestRoute.dart';
 import 'package:first_flutter_app/home.dart';
+import 'package:first_flutter_app/progressRoute.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-
-import 'formTestRoute.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,7 +21,8 @@ class MyApp extends StatelessWidget {
       },
 //      home: TextFiledWidget(title: 'TextField'),
 //    home: FocusTestRoute(),
-    home: FormTestRoute(),
+//    home: FormTestRoute(),
+    home: ProgressRoute(),
     );
   }
 }
