@@ -1,4 +1,5 @@
 import 'package:first_flutter_app/animatedList.dart';
+import 'package:first_flutter_app/animation/container.dart';
 import 'package:first_flutter_app/foucusTestRoute.dart';
 import 'package:first_flutter_app/home.dart';
 import 'package:first_flutter_app/progressRoute.dart';
@@ -6,7 +7,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-void main() => runApp(AnimatedListSample());
+void main() => runApp(AnimatedContainerApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
