@@ -1,13 +1,11 @@
-import 'package:first_flutter_app/animatedList.dart';
-import 'package:first_flutter_app/animation/container.dart';
-import 'package:first_flutter_app/foucusTestRoute.dart';
-import 'package:first_flutter_app/home.dart';
-import 'package:first_flutter_app/progressRoute.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'animation/container.dart';
+import 'basic/home.dart';
+import 'layout_basic/index.dart';
 
-void main() => runApp(AnimatedContainerApp());
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -21,10 +19,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "new_page": (context) => NewRoute(),
       },
-//      home: TextFiledWidget(title: 'TextField'),
-//    home: FocusTestRoute(),
-//    home: FormTestRoute(),
-    home: ProgressRoute(),
+    home: LayoutBasic(),
     );
   }
 }

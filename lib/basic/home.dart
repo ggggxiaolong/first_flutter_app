@@ -1,6 +1,6 @@
 import 'package:english_words/english_words.dart';
-import 'package:first_flutter_app/cupertino.dart';
-import 'package:first_flutter_app/state.dart';
+import './cupertino.dart';
+import './state.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
